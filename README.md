@@ -11,10 +11,8 @@ This repository contains essential KDE Plasma configuration settings for CachyOS
 
 ## Wallpaper Configuration
 - Wallpaper settings are stored in `wallpaper-config/plasma-org.kde.plasma.desktop-appletsrc`
-- Actual wallpaper images are backed up separately on SPCC_1TB drive
-- Current wallpaper paths:
-  - Primary screen: `/home/duck/Pictures/wallpapers/Tower-Night.png`
-  - Secondary screen: `/home/duck/Pictures/wallpapers/Dynamic-Wallpapers/Dark/Fuji-Dark.png`
+- Actual wallpaper images are stored in `/usr/share/wallpapers/cachyos-wallpapers/`
+- Configuration points to system wallpaper locations
 
 ## Important Notes
 - This repository contains only configuration settings and configuration files

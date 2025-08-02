@@ -46,7 +46,7 @@ positions={"1920x1080":["1","17"]}
 sortMode=-1
 
 [Containments][2][Wallpaper][org.kde.image][General]
-Image=/home/duck/Pictures/wallpapers/Dynamic-Wallpapers/Dark/Fuji-Dark.png
+Image=/usr/share/wallpapers/cachyos-wallpapers/Fuji-Dark.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][28]
