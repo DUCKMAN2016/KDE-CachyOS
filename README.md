@@ -8,6 +8,7 @@ This repository contains essential KDE Plasma configuration settings for CachyOS
 - System settings
 - Application settings
 - Wallpaper configuration
+- Lock screen configuration (Anime-Room background)
 
 ## Wallpaper Configuration
 - Wallpaper settings are stored in `wallpaper-config/plasma-org.kde.plasma.desktop-appletsrc`
