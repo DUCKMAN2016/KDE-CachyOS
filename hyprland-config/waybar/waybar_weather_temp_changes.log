@@ -1,0 +1,29 @@
+Waybar Weather and Temperature Module Configuration Changes - 2025-07-31
+
+1. Phoenix Weather Module:
+- Created custom/phx_weather module using wttr.in API
+- Configured to update every hour
+- Added proper JSON output format
+- Fixed temperature conversion from Fahrenheit to Celsius
+- Added weather icon (󰖀)
+
+2. Temperature Module:
+- Moved from Modules to ModulesCustom
+- Updated to use correct hwmon path (/sys/class/hwmon/hwmon2/temp1_input)
+- Fixed JSON format issues
+- Added proper temperature format with icon (󰈸)
+
+3. Module Layout:
+- Phoenix weather in center near clock
+- CPU/GPU temperature on right side
+- Both modules display temperature in both Celsius and Fahrenheit
+
+4. Configuration Files Modified:
+- ~/.config/waybar/config
+- ~/.config/waybar/ModulesCustom
+- ~/.config/hypr/UserScripts/phx_weather.sh
+
+5. Final Working Configuration:
+- Phoenix weather shows current temperature (37°C/98°F)
+- CPU/GPU temperature shows hardware temperature
+- Both modules display with proper icons
